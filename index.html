@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/output.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/0cc563fb18.js" crossorigin="anonymous"></script>
+  <title>Showcase NFT</title>
+</head>
+<body class="bg-[#090811]">
+  <!-- header start -->
+  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <!-- logo -->
+        <div class="px-4 w-1/2 lg:w-1/3">
+          <a href="#home" class="py-6 block">
+            <img src="src/img/showcase.png" alt="logo" class="w-24 md:w-fit">
+          </a>
+        </div>
+        <div class="flex items-center px-4 w-1/2 lg:w-3/4">
+          <!-- menu hamburger -->
+          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+          </button>
+          <!-- menu navigasi -->
+          <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+            <ul class="lg:flex justify-end">
+              <li><a href="#home" class="flex font-medium text-base lg:text-warna-text py-1 my-3 mx-8 lg:mx-4 text-[#0f172a] lg:hover:text-white">Home</a></li>
+              <li><a href="#browse" class="flex font-medium text-base lg:text-warna-text py-1 my-3 mx-8 lg:mx-4 text-[#0f172a] lg:hover:text-white">Browse</a></li>
+              <li><a href="#creators" class="flex font-medium text-base lg:text-warna-text py-1 my-3 mx-8 lg:mx-4 text-[#0f172a] lg:hover:text-white">Creators</a></li>
+              <li><a href="#story" class="flex font-medium text-base lg:text-warna-text py-1 my-3 mx-8 lg:mx-4 text-[#0f172a] lg:hover:text-white">Story</a></li>
+              <li><a href="#projects" class="flex font-medium text-base lg:text-warna-text py-1 my-3 mx-8 lg:mx-4 text-[#0f172a] lg:hover:text-white">Projects</a></li>
+              <div class="flex items-center mx-8 lg:mx-0 lg:ml-6 gap-2">
+                <a href="#" class="bg-ungu hover:bg-[#4c3877] transition duration-300 ease-in-out py-2 px-3 xl:py-[10px] xl:px-[13px] rounded-full"><i class="fa-solid fa-magnifying-glass fa-lg text-white"></i></a>
+                <a href="#" class="font-semibold text-sm xl:text-base bg-ungu text-white hover:bg-[#4c3877] transition duration-300 ease-in-out py-2 px-4 lg:ml-2 xl:py-[10px] xl:px-[30px] rounded-full">Sign In</a>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- main start -->
+  <main>
+    <!-- hero section start -->
+    <section id="home" class="pt-36 relative">
+      <img src="src/img/union.png" alt="union" class="absolute -z-10 top-full right-0 w-[90%] -translate-y-3/4 lg:-translate-y-[40%]" width="1308" />
+      <div class="container">
+        <div class="flex flex-wrap">
+          <!-- side left -->
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="font-semibold text-4xl text-white md:text-5xl lg:text-[55px] xl:text-7xl mt-5 font-raleway">Space Time</h1>
+            <p class="text-warna-text text-[18px] mt-[10px] lg:mt-10 font-poppins">Projek yang dibangun untuk memberikan sebuah<br class="hidden lg:block"> motivasi kuat kepada manusia dalam proses<br class="hidden lg:block"> tercapainya antar galaxy multi univ.</p>
+            <div class="flex items-center mt-5">
+              <span class="text-warna-text mr-3 text-[18px] font-poppins">Latest Price:</span>
+              <span class="bg-hijau rounded-full py-2 px-4 gap-x-2 w-fit">
+                <img src="src/img/diamond.png" alt="diamond_icon" class="inline-block w-5">
+                <p class="inline text-dark font-semibold text-sm lg:text-base">52</p>
+              </span>
+            </div>
+            <div class="flex items-center justify-center w-fit mt-5">
+              <img src="src/img/pp.jpg" alt="photo profile" class="w-20 h-20 object-cover rounded-full border border-white p-1 mr-5 pointer-events-none">
+              <span class="text-white text-[18px] font-raleway">
+                Alan <br><a href="https://www.instagram.com/_danam3/" class="text-warna-text font-poppins">@_danam3</a>
+              </span>
+            </div>
+            <div class="tombol relative flex items-center gap-2 mt-[10px] md:mt-5 lg:mt-10">
+              <a href="#" class="font-bold text-sm md:text-[18px] text-[#564318] bg-[#F9C85A] py-2 px-5 lg:py-4 lg:px-10 rounded-full shadow-lg md:shadow-xl hover:bg-[#fcdc91] ease-in-out duration-300 active:bg-opacity-50 font-raleway">Bid Now</a>
+              <a href="#" class="font-bold text-sm md:text-[18px] text-[#564318] bg-[#F9C85A] py-2 px-5 lg:py-2 lg:px-10 rounded-full shadow-lg md:shadow-xl hover:bg-[#fcdc91] ease-in-out duration-300 active:bg-opacity-50 blur-xl absolute top-4 -z-10">Bid Now</a>
+            </div>
+          </div>
+          <!-- side right -->
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10 lg:mt-0">
+              <img src="src/img/hero.png" alt="hero photo" class="max-w-full mx-auto pointer-events-none">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+    <!-- boosting-up section start -->
+    <section id="boosting-up" class="pt-36">
+      <div class="container">
+        <!-- judul -->
+        <div class="w-full px-4">
+          <h2 class="font-semibold text-xl text-pink lg:text-4xl mb-[30px] mx-auto text-center font-bad-script">Boosting Up</h2>
+          <h3 class="font-bold text-2xl text-white lg:text-5xl mb-[30px] mx-auto text-center font-raleway">Powerful Benefits</h3>
+        </div>
+        <!-- card choise -->
+        <div class="flex flex-wrap justify-center mt-20 gap-y-10 lg:gap-y-0">
+          <div class="w-full px-4 lg:w-1/5 lg:mx-10">
+            <div class="flex items-center justify-center flex-col">
+              <div class="inline-block">
+                <img src="src/img/globe.png" alt="globe" class="pointer-events-none">
+              </div>
+              <div class="py-6 text-center">
+                <h3 class="font-semibold text-[22px] text-dark leading-9 transition duration-300 ease-in-out text-white">Huge Traffic</h3>
+                <p class="font-medium text-base text-warna-text leading-7">We provide millions visitor <br> only for your great art</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/5 lg:mx-10">
+            <div class="flex items-center justify-center flex-col">
+              <div class="inline-block">
+                <img src="src/img/credit-card.png" alt="credit-card" class="pointer-events-none">
+              </div>
+              <div class="py-6 text-center">
+                <h3 class="font-semibold text-[22px] text-dark leading-9 transition duration-300 ease-in-out text-white">Cheap Price</h3>
+                <p class="font-medium text-base text-warna-text leading-7">Listing your artwork with <br> our friendly pricing</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/5 lg:mx-10">
+            <div class="flex items-center justify-center flex-col">
+              <div class="inline-block">
+                <img src="src/img/watch.png" alt="watch" class="pointer-events-none">
+              </div>
+              <div class="py-6 text-center">
+                <h3 class="font-semibold text-[22px] text-dark leading-9 transition duration-300 ease-in-out text-white">No Limits</h3>
+                <p class="font-medium text-base text-warna-text leading-7">Your artwork always <br> available forever</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- boosting-up section end -->
+    <!-- Collect Now section start -->
+    <section id="collect-now" class="pt-36">
+      <div class="container">
+        <!-- judul -->
+        <div class="w-full px-4">
+          <h2 class="font-semibold text-xl text-pink lg:text-4xl mb-[30px] font-bad-script">Collect Now</h2>
+          <h3 class="font-bold text-2xl text-white lg:text-5xl mb-[30px] font-raleway">Similar Items</h3>
+        </div>
+        <!-- card choise -->
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 lg:w-1/3 xl:w-1/4">
+            <div class="py-[30px] mb-10 flex justify-center">
+              <div class="relative">
+                <img src="src/img/lego _super.png" alt="lego _super" class="pointer-events-none">
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/3 xl:w-1/4">
+            <div class="py-[30px] mb-10 flex justify-center">
+              <div class="relative">
+                <img src="src/img/tiger_scout.png" alt="tiger_scout" class="pointer-events-none">
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/3 xl:w-1/4">
+            <div class="py-[30px] mb-10 flex justify-center">
+              <div class="relative">
+                <img src="src/img/dota_state.png" alt="dota_state" class="pointer-events-none">
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/3 xl:w-1/4">
+            <div class="py-[30px] mb-10 flex justify-center">
+              <div class="relative">
+                <img src="src/img/mega_crypto.png" alt="mega_crypto" class="pointer-events-none">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Collect Now section end -->
+  </main>
+  <!-- main end -->
+
+  <!-- footer start -->
+  <footer class="pb-12">
+    <div class="container">
+      <div class="w-full pt-10 border-t border-slate-700 dark:border-slate-500">
+        <p class="font-medium text-slate-500 text-center text-xs dark:text-dark">designed by <a href="https://shaynakit.com/landing" class="text-base font-bold text-primary">shaynakit</a><br>developer by <a href="https://shaynakit.com/landing" class="text-base font-bold text-primary">Dana Maulana</a></p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  <script src="src/js/script.js"></script>
+</body>
+</html>
